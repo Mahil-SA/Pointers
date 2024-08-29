@@ -1,2 +1,0 @@
-# Pointers
-Experiment 9
