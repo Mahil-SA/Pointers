@@ -1,5 +1,5 @@
 # Basics-of-C++
-This repository contains experiments 1, 2, 3, 4 which are related to the pointers in C++.
+This repository contains experiments 9, 10 which are related to the pointers in C++.
 
 # Pointers
 # EXPERIMENT 9:
