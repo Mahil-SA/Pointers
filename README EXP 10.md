@@ -9,6 +9,10 @@ To study and
 In C++, pointers are variables that store memory addresses of other variables.
 
 They enable direct memory access and manipulation, allowing for efficient array handling, dynamic memory allocation, and complex data structures like linked lists and trees.
+
+In C++, "call by value" refers to a method of passing arguments to functions. When you use call by value, the function receives a copy of the argument's value rather than a reference to the original data.
+
+In C++, "call by reference" means that instead of passing a copy of a variable's value or pointer to a function, you pass a reference to the variable or pointer itself. This allows the function to modify the original variable or pointer directly.
 ~~~
 CODE:
 
