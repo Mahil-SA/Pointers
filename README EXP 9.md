@@ -1,10 +1,10 @@
-# Basics-of-C++
+# Pointers
 This repository contains experiments 9, 10 which are related to the pointers in C++.
 
 # Pointers
 # EXPERIMENT 9:
 ## Aim: 
-To study and implement C++ Bitwise Operators.
+To study and implement pointers and pointer operations.
 ## Theory: 
 In C++, pointers are variables that store memory addresses of other variables.
 
