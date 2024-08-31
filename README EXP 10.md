@@ -57,3 +57,10 @@ int main()
 
 # Conclusion
 In C++ we have learnt about pointer operations like call by value and call by reference and 
+
+# Outputs
+## Program 1
+![image](https://github.com/user-attachments/assets/939d20d2-37c9-471c-a768-03276d985081)
+
+## Program 2
+![image](https://github.com/user-attachments/assets/40ce7576-6668-4f4b-bc51-d731533ec804)
