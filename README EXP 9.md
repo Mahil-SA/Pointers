@@ -63,3 +63,13 @@ int main()
 
 # Conclusion
 In C++ we have learnt about what pointers are and how and why they are used in C++.
+
+# Outputs
+## Program 1.1
+![image](https://github.com/user-attachments/assets/5ffe813c-7345-4c62-81b4-f2121060120b)
+
+## Program 1.2
+![image](https://github.com/user-attachments/assets/dd3ed709-ed23-4d44-ad94-263a475abc48)
+
+## Program 1.3
+![image](https://github.com/user-attachments/assets/d31d61d8-7f38-404b-8f07-ae0dff50f5d1)
