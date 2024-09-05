@@ -12,40 +12,74 @@ They enable direct memory access and manipulation, allowing for efficient array 
 ~~~
 CODE:
 
-//Program 1.1
-#include<iostream>
+//Program 1 (Pointer Integer)
+#include <iostream>
 using namespace std;
 int main()
 {
     int a = 10;
     int *ptr;
     ptr=&a;
-    cout<<*ptr<<endl;
-    cout<<a<<endl;
-    cout<<&a<<endl;
-    ptr++;
-    cout<<ptr<<endl;
+   cout<< "The value pointed by *ptr is: "<<*ptr << endl;
+    cout << "The value in b is: " <<a << endl;
+    cout << "The value in pointer variable ptr is: "<<(void*)ptr << endl;
+
+    cout << "the address of variable b is: "<<&a << endl;
+    ptr ++;
+    cout<< "After increment the value in pointer variable ptr is: " << (void*)ptr << endl;
 }
 
-//Program 1.2
+//Program 2 (Pointer Character)
 #include<iostream>
+using namespace std;
+int main()
+{
+    char a = 'c'; 
+    char *ptr;
+    ptr = &a;
+    cout<< "The value pointed by *ptr is"<<*ptr << endl;
+    cout << "The value in b is" <<a << endl;
+    cout << "The value in pointer variable ptr is"<<(void*)ptr << endl;
+    cout << "the address of variable b is "<<&a << endl;
+    ptr ++;
+    cout<< "After increment the value in pointer variable ptr is: " << (void*)ptr << endl;
+}
+
+//Program 3 (Pointer Float)
+ #include <iostream>
 using namespace std;
 int main()
 {
     float a = 'A';
     float *ptr;
     ptr=&a;
-    cout<<*ptr<<endl;
-    cout<<a<<endl;
-    cout<<ptr<<endl;
-    cout<<&a<<endl;
-    ptr++;
-    cout<<ptr<<endl;
+     cout<< "The value pointed by *ptr is: "<<*ptr << endl;
+    cout << "The value in b is: " <<a << endl;
+    cout << "The value in pointer variable ptr is: "<<(void*)ptr << endl;
+
+    cout << "the address of variable b is: "<<&a << endl;
+    ptr ++;
+    cout<< "After increment the value in pointer variable ptr is: " << (void*)ptr << endl;
 }
 
-//Program 1.3
+//Program 4 (Access array using pointer and using pointer variable.)
+#include<iostream>
+using namespace std;
+int main()
+{
+    int *ptr;
+    int a[5] = { 1,2,4,8,9};
+    ptr = &a[0];
+    int i;
+    for(i=0 ; i<5 ; i++)
+    {
+        cout << "Element "<< i+1 <<" "<<"="<<" "<<*ptr << endl;
+        ptr ++;
 
-//Program 2 (Access array using pointer and without using pointer variable.)
+    }
+}
+
+//Program 5 (Access array using pointer and without using pointer variable.)
 #include<iostream>
 using namespace std;
 int main()
@@ -65,11 +99,17 @@ int main()
 In C++ we have learnt about what pointers are and how and why they are used in C++.
 
 # Outputs
-## Program 1.1
-![image](https://github.com/user-attachments/assets/5ffe813c-7345-4c62-81b4-f2121060120b)
+## Program 1
+![image](https://github.com/user-attachments/assets/4f7dc4ab-0f35-4f70-8a30-e54993309647)
 
-## Program 1.2
-![image](https://github.com/user-attachments/assets/dd3ed709-ed23-4d44-ad94-263a475abc48)
+## Program 2
+![image](https://github.com/user-attachments/assets/3447e96d-25f7-43e5-969f-33806e5fb7f1)
 
-## Program 1.3
-![image](https://github.com/user-attachments/assets/d31d61d8-7f38-404b-8f07-ae0dff50f5d1)
+## Program 3
+![image](https://github.com/user-attachments/assets/57c52385-8449-479b-857b-b59ef1a52cdc)
+
+## Program 4
+![image](https://github.com/user-attachments/assets/1240e76b-2eda-43da-a6ab-d741b6b485c9)
+
+## Program 5
+![image](https://github.com/user-attachments/assets/1bf4d85d-87aa-4ed8-aa54-aacae3757053)
