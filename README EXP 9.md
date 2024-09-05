@@ -84,13 +84,15 @@ int main()
 using namespace std;
 int main()
 {
-    int i, *ptr;
-    int a[50]={1,2,3,4,5};
-    ptr=&a[0];
-    for(i=0;i<5;i++)
+    int *ptr;
+    int a[5] = { 1,2,4,8,9};
+    ptr = &a[0];
+    int i;
+    for(i=0 ; i<5 ; i++)
     {
-        cout<<*ptr<<endl;
-        ptr++;
+        cout << "Element "<< i+1 <<" "<<"="<<" "<<*(a+i) << endl;
+        ptr ++;
+
     }
 }
 ~~~
@@ -112,4 +114,4 @@ In C++ we have learnt about what pointers are and how and why they are used in C
 ![image](https://github.com/user-attachments/assets/1240e76b-2eda-43da-a6ab-d741b6b485c9)
 
 ## Program 5
-![image](https://github.com/user-attachments/assets/1bf4d85d-87aa-4ed8-aa54-aacae3757053)
+![image](https://github.com/user-attachments/assets/f6736b6c-ec5b-4a87-8f1c-8e82c52e012d)
