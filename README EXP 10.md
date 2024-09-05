@@ -4,7 +4,7 @@ This repository contains experiments 9, 10 which are related to the pointers in 
 # Pointers
 # EXPERIMENT 9:
 ## Aim: 
-To study and 
+To study and implement call by value and call by reference.
 ## Theory: 
 In C++, pointers are variables that store memory addresses of other variables.
 
