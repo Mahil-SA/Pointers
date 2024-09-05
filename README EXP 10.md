@@ -56,7 +56,7 @@ int main()
 ~~~
 
 # Conclusion
-In C++ we have learnt about pointer operations like call by value and call by reference and 
+In C++ we have learnt about pointer operations like call by value and call by reference.
 
 # Outputs
 ## Program 1
