@@ -105,7 +105,7 @@ In C++ we have learnt about what pointers are and how and why they are used in C
 ![image](https://github.com/user-attachments/assets/4f7dc4ab-0f35-4f70-8a30-e54993309647)
 
 ## Program 2
-![image](https://github.com/user-attachments/assets/3447e96d-25f7-43e5-969f-33806e5fb7f1)
+![image](https://github.com/user-attachments/assets/96da946d-100e-4cea-86e0-bc327ac6210c)
 
 ## Program 3
 ![image](https://github.com/user-attachments/assets/57c52385-8449-479b-857b-b59ef1a52cdc)
